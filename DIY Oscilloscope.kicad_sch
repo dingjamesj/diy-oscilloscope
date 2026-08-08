@@ -1617,9 +1617,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 39.37 66.04) (xy 43.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10741788-d078-4405-8f77-32880b79dd0d")
+	)
+	(wire
+		(pts
+			(xy 34.29 71.12) (xy 43.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bab233e-62b5-42dd-ac21-6cedae4693f4")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F4:STM32F401RETx")
-		(at 135.89 76.2 0)
+		(at 125.73 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1630,7 +1650,7 @@
 		(fields_autoplaced yes)
 		(uuid "396de5d0-88b0-473b-bf07-73d0fc8cf229")
 		(property "Reference" "U3"
-			(at 140.5733 121.92 0)
+			(at 130.4133 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1641,7 +1661,7 @@
 			)
 		)
 		(property "Value" "STM32F401RETx"
-			(at 140.5733 124.46 0)
+			(at 130.4133 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1652,7 +1672,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 120.65 119.38 0)
+			(at 110.49 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f401re.pdf"
-			(at 135.89 76.2 0)
+			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,7 +1695,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 96KB RAM, 84 MHz, 1.7-3.6V, 50 GPIO, LQFP64"
-			(at 135.89 76.2 0)
+			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1888,7 +1908,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 81.28 35.56 0)
+		(at 34.29 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1899,29 +1919,27 @@
 		(fields_autoplaced yes)
 		(uuid "714a2082-79e7-4efc-8cc5-ee6901a42400")
 		(property "Reference" "J1"
-			(at 85.09 34.5831 0)
+			(at 34.5832 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 85.09 37.1231 0)
+			(at 34.5832 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 35.56 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +1950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 35.56 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +1961,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 81.28 35.56 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,7 +1987,7 @@
 		)
 	)
 	(sheet
-		(at 40.386 60.198)
+		(at 43.18 60.452)
 		(size 37.592 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1985,7 +2003,7 @@
 		)
 		(uuid "49ac926d-a525-4453-86a6-7143ef693ac4")
 		(property "Sheetname" "Analog Frontend"
-			(at 40.386 59.4864 0)
+			(at 43.18 59.7404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1996,7 +2014,7 @@
 			)
 		)
 		(property "Sheetfile" "Analog Front End.kicad_sch"
-			(at 40.386 77.2926 0)
+			(at 43.18 77.5466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2007,7 +2025,7 @@
 			)
 		)
 		(pin "Clock" input
-			(at 77.978 63.5 0)
+			(at 80.772 63.754 0)
 			(uuid "774f02bb-2aad-47f3-9dac-e9fdbfc96225")
 			(effects
 				(font
@@ -2017,7 +2035,7 @@
 			)
 		)
 		(pin "Digital Pot Control" input
-			(at 77.978 72.39 0)
+			(at 80.772 72.644 0)
 			(uuid "662dd9e6-7754-4ba0-9d0c-1bf0b2331e96")
 			(effects
 				(font
@@ -2027,7 +2045,7 @@
 			)
 		)
 		(pin "In" input
-			(at 40.386 66.04 180)
+			(at 43.18 71.12 180)
 			(uuid "89ee6c47-5449-495e-810d-6750c2fe47bf")
 			(effects
 				(font
@@ -2037,7 +2055,7 @@
 			)
 		)
 		(pin "Out" input
-			(at 77.978 67.818 0)
+			(at 80.772 68.072 0)
 			(uuid "5e38d8bd-3f2e-4af7-bcd9-f5b8d1e33d17")
 			(effects
 				(font
@@ -2047,7 +2065,7 @@
 			)
 		)
 		(pin "Ref" input
-			(at 40.386 71.12 180)
+			(at 43.18 66.04 180)
 			(uuid "c761a304-1ebb-4f11-a302-c036c3981d21")
 			(effects
 				(font
