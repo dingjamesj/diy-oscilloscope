@@ -1769,7 +1769,7 @@
 	)
 	(text "Anti-aliasing\nLow Pass Filter"
 		(exclude_from_sim no)
-		(at 61.468 24.892 0)
+		(at 67.818 24.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1777,9 +1777,19 @@
 		)
 		(uuid "173568ba-d44d-4d9e-ac9b-754ae7e5af1f")
 	)
+	(text "DC Offset Generator"
+		(exclude_from_sim no)
+		(at 216.662 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "887bf66e-e7d4-436d-8434-583391ec3bc8")
+	)
 	(text "10x Switch"
 		(exclude_from_sim no)
-		(at 39.37 20.32 0)
+		(at 41.656 28.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1789,7 +1799,7 @@
 	)
 	(text "Differential Amplifier"
 		(exclude_from_sim no)
-		(at 87.63 30.226 0)
+		(at 171.45 28.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1798,52 +1808,86 @@
 		(uuid "bf44df11-3474-4c9d-85e7-cbacee011f2b")
 	)
 	(junction
-		(at 34.29 36.83)
+		(at 232.41 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04fa588c-8237-4465-a9f2-9c61ff02f059")
+		(uuid "0f8d896d-6c69-46a0-a338-1ad223038e3a")
 	)
 	(junction
-		(at 82.55 57.15)
+		(at 166.37 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15c5c420-aaee-47bb-9cd7-97220e9d0cf7")
 	)
 	(junction
-		(at 62.23 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b5342ea-060e-4c2f-bcc1-641b98ab6bf1")
-	)
-	(junction
-		(at 62.23 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d7091be-bb5a-4a46-9d73-74f2bcee02c0")
-	)
-	(junction
 		(at 34.29 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "248a8386-628f-446e-94a3-2de969c358e7")
+		(uuid "405fd2f4-6c6d-4e58-8564-a0027e290ee1")
 	)
 	(junction
-		(at 97.79 49.53)
+		(at 181.61 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6aa6cebb-b465-4f33-9d48-621935ed0bb1")
 	)
 	(junction
-		(at 241.3 119.38)
+		(at 201.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dcf76f2-5d36-434b-a1c5-90fdfcd57b8a")
+	)
+	(junction
+		(at 68.58 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c4aeba7-e5e4-49da-b2d2-8259b3326de4")
+	)
+	(junction
+		(at 217.17 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e36a207-a2dc-46c2-979d-15135c80216e")
+	)
+	(junction
+		(at 292.1 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b39493ce-c06f-48b7-8784-0c1673704ca9")
 	)
 	(junction
-		(at 82.55 41.91)
+		(at 68.58 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdcf47dc-325b-430a-ae4c-057d1c418117")
+	)
+	(junction
+		(at 214.63 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdef3bf8-78cd-4ba7-9e81-6559ad176003")
+	)
+	(junction
+		(at 34.29 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e14f7902-3ab5-4180-86b5-d975fb044dab")
+	)
+	(junction
+		(at 166.37 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb608c81-8cd4-42ba-82d8-553f9b0d3838")
+	)
+	(wire
+		(pts
+			(xy 232.41 53.34) (xy 238.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216a981e-59e3-44ee-83c0-1a68730dd0dc")
 	)
 	(wire
 		(pts
@@ -1857,13 +1901,33 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 241.3 127)
+			(xy 276.86 111.76) (xy 292.1 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b4f4419-4f86-4c2c-9941-20ed7df3df0e")
+	)
+	(wire
+		(pts
+			(xy 186.69 58.42) (xy 201.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f4c68a-9aa0-4a63-9935-af09d8cc1094")
+	)
+	(wire
+		(pts
+			(xy 201.93 58.42) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e99d463-8bbb-4203-9e01-d14d2948cec3")
 	)
 	(wire
 		(pts
@@ -1887,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 41.91) (xy 97.79 49.53)
+			(xy 181.61 40.64) (xy 181.61 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1961,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 119.38) (xy 243.84 119.38)
+			(xy 204.47 50.8) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666d4d45-99ef-439b-9dee-617dbb977928")
+	)
+	(wire
+		(pts
+			(xy 292.1 104.14) (xy 294.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 49.53) (xy 102.87 49.53)
+			(xy 181.61 48.26) (xy 186.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 82.55 46.99)
+			(xy 166.37 40.64) (xy 166.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 41.91) (xy 97.79 41.91)
+			(xy 177.8 40.64) (xy 181.61 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 36.83) (xy 54.61 36.83)
+			(xy 34.29 36.83) (xy 60.96 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1947,17 +2021,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 41.91) (xy 74.93 41.91)
+			(xy 212.09 50.8) (xy 214.63 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79b38f16-8d2c-438b-841b-fdabad19b0fc")
+		(uuid "84b819f1-ff3c-4ad3-84f2-06615f1cb6f6")
 	)
 	(wire
 		(pts
-			(xy 34.29 62.23) (xy 54.61 62.23)
+			(xy 34.29 62.23) (xy 60.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 226.06 116.84)
+			(xy 271.78 101.6) (xy 276.86 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1987,17 +2061,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 69.85 62.23)
+			(xy 186.69 53.34) (xy 186.69 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93d616f6-b742-4930-9395-2744393e2fbc")
+		(uuid "9862f3a7-d2d5-4ceb-bc68-2c717ed378c7")
 	)
 	(wire
 		(pts
-			(xy 241.3 127) (xy 241.3 119.38)
+			(xy 292.1 111.76) (xy 292.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2007,17 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 36.83) (xy 69.85 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1ea774c-490a-407a-8b8d-0c1b16bcaf01")
-	)
-	(wire
-		(pts
-			(xy 82.55 41.91) (xy 86.36 41.91)
+			(xy 166.37 40.64) (xy 170.18 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2101,37 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 121.92) (xy 226.06 127)
+			(xy 217.17 44.45) (xy 217.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac75c25f-e04e-40da-9682-a1671ada2d7b")
+	)
+	(wire
+		(pts
+			(xy 228.6 44.45) (xy 232.41 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff223bb-90b8-4f16-8a6b-d3f2f215460c")
+	)
+	(wire
+		(pts
+			(xy 214.63 50.8) (xy 217.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cbda1a-26b4-4368-b1d7-7d237745893c")
+	)
+	(wire
+		(pts
+			(xy 276.86 106.68) (xy 276.86 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 62.23) (xy 62.23 62.23)
+			(xy 68.58 62.23) (xy 77.47 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2151,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 69.85 36.83)
+			(xy 232.41 44.45) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c343ae8e-e428-4f49-9b5b-d97bffac8bbd")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 77.47 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2077,16 +2181,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 69.85 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4d142b3-d3d1-49b6-865c-b5a62fd95083")
-	)
-	(wire
-		(pts
 			(xy 34.29 46.99) (xy 39.37 46.99)
 		)
 		(stroke
@@ -2097,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 52.07) (xy 82.55 57.15)
+			(xy 166.37 50.8) (xy 166.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2107,13 +2201,43 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 104.14) (xy 220.98 114.3)
+			(xy 271.78 88.9) (xy 271.78 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eaa8da99-46e4-42bf-ac5c-3357a682b453")
+	)
+	(wire
+		(pts
+			(xy 214.63 80.01) (xy 214.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4bf02b-b3e5-4ee4-8890-14ba7abcf5c6")
+	)
+	(wire
+		(pts
+			(xy 220.98 44.45) (xy 217.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10ab964-76f0-42e4-b15c-b24fa452bebf")
+	)
+	(wire
+		(pts
+			(xy 214.63 80.01) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b83375-8a46-4c3b-ba49-ba2b7ed93aa4")
 	)
 	(wire
 		(pts
@@ -2125,8 +2249,18 @@
 		)
 		(uuid "f4118835-95b4-4391-beba-6c154cc24e1e")
 	)
+	(label "Filtered Ref"
+		(at 77.47 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3aa57494-8a20-42fa-9f97-e37b764f3c93")
+	)
 	(label "Processed In"
-		(at 111.76 25.4 0)
+		(at 238.76 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2136,7 +2270,7 @@
 		(uuid "6bcc3920-55cb-4ba2-8e65-b0c79937d67c")
 	)
 	(label "Processed In"
-		(at 220.98 104.14 0)
+		(at 271.78 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2145,9 +2279,19 @@
 		)
 		(uuid "87d78606-9690-4551-8e13-b63b6273f665")
 	)
+	(label "Filtered In"
+		(at 77.47 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91331e05-874e-47f5-b31c-65f27002d09a")
+	)
 	(hierarchical_label "Clock"
 		(shape input)
-		(at 200.66 114.3 180)
+		(at 251.46 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2167,6 +2311,39 @@
 		)
 		(uuid "3620e285-c1a0-463d-a61c-cb1cbee43790")
 	)
+	(hierarchical_label "Vertical Scaling Digital Pot ~{CS}"
+		(shape input)
+		(at 251.46 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ad26592-53d8-4483-a657-3adb1476300f")
+	)
+	(hierarchical_label "DC Offset DAC ~{CS}"
+		(shape input)
+		(at 184.15 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49b35fc3-dee3-4119-92eb-d4314b64d1af")
+	)
+	(hierarchical_label "Clock"
+		(shape input)
+		(at 184.15 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c19a0e1-9175-4183-9324-9a9b6deaa010")
+	)
 	(hierarchical_label "In"
 		(shape input)
 		(at 25.4 62.23 180)
@@ -2180,7 +2357,7 @@
 	)
 	(hierarchical_label "Digital Pot Control"
 		(shape input)
-		(at 200.66 116.84 180)
+		(at 251.46 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,9 +2366,20 @@
 		)
 		(uuid "7d98537e-8694-4087-b77d-343b5f9405b3")
 	)
+	(hierarchical_label "Offset DAC Control"
+		(shape input)
+		(at 184.15 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bf32c38-25e6-42ce-b57a-eebc652cf989")
+	)
 	(hierarchical_label "Out"
 		(shape input)
-		(at 243.84 119.38 0)
+		(at 294.64 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2202,7 +2390,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 78.74 41.91 90)
+		(at 162.56 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2213,7 +2401,7 @@
 		(fields_autoplaced yes)
 		(uuid "00b174bd-01d3-45da-b593-368d9c52c8cd")
 		(property "Reference" "R9"
-			(at 78.74 35.56 90)
+			(at 162.56 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2223,7 +2411,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 78.74 38.1 90)
+			(at 162.56 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2233,7 +2421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.994 40.894 90)
+			(at 162.814 39.624 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2244,7 +2432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 41.91 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2255,7 +2443,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 78.74 41.91 0)
+			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2282,7 +2470,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 78.74 57.15 90)
+		(at 162.56 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2293,7 +2481,7 @@
 		(fields_autoplaced yes)
 		(uuid "07aca0ef-8e01-45b0-8466-400f5d2e2c5e")
 		(property "Reference" "R7"
-			(at 78.74 50.8 90)
+			(at 162.56 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2303,7 +2491,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 78.74 53.34 90)
+			(at 162.56 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2313,7 +2501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.994 56.134 90)
+			(at 162.814 54.864 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,7 +2512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 57.15 0)
+			(at 162.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +2523,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 78.74 57.15 0)
+			(at 162.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2361,8 +2549,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 82.55 60.96 180)
+		(lib_id "power:GND")
+		(at 217.17 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2371,31 +2559,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1188bcdd-9690-4b87-9339-982add8db4f7")
-		(property "Reference" "R8"
-			(at 85.09 59.6899 0)
+		(uuid "09c1b4d4-b85e-4303-adc5-92a52bec62f1")
+		(property "Reference" "#PWR010"
+			(at 217.17 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_US"
-			(at 85.09 62.2299 0)
+		(property "Value" "GND"
+			(at 217.17 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 81.534 60.706 90)
+			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +2593,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 60.96 0)
+			(at 217.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "299bc315-827c-4b3b-8023-bfb8060984e6")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 166.37 59.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1188bcdd-9690-4b87-9339-982add8db4f7")
+		(property "Reference" "R8"
+			(at 168.91 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_US"
+			(at 168.91 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.354 59.436 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2683,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 82.55 60.96 0)
+			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2444,9 +2710,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 158.75 54.61 0)
-		(mirror x)
-		(unit 2)
+		(at 194.31 50.8 0)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2454,8 +2719,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "130661af-7459-4b87-96e2-07276b69e28c")
-		(property "Reference" "U4"
-			(at 158.75 63.5 0)
+		(property "Reference" "U2"
+			(at 194.31 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2465,7 +2730,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 158.75 60.96 0)
+			(at 194.31 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2475,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 57.15 0)
+			(at 193.04 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2486,7 +2751,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 160.02 59.69 0)
+			(at 195.58 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,7 +2762,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 158.75 54.61 0)
+			(at 194.31 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,15 +2817,15 @@
 		(instances
 			(project "DIY Oscilloscope"
 				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
-					(reference "U4")
-					(unit 2)
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Potentiometer_Digital:AD5160")
-		(at 210.82 116.84 0)
+		(at 119.38 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2571,7 +2836,7 @@
 		(fields_autoplaced yes)
 		(uuid "13658922-e4b1-4101-8af4-bd707221a386")
 		(property "Reference" "U1"
-			(at 212.9633 104.14 0)
+			(at 121.5233 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2582,7 +2847,7 @@
 			)
 		)
 		(property "Value" "AD5160"
-			(at 212.9633 106.68 0)
+			(at 121.5233 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2593,7 +2858,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 211.074 145.542 0)
+			(at 119.634 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2604,7 +2869,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5160.pdf"
-			(at 210.82 150.114 0)
+			(at 119.38 76.454 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,7 +2880,7 @@
 			)
 		)
 		(property "Description" "Digital potentiometer, 256 position, single output, SPI interface, SOT-23-8"
-			(at 210.82 141.478 0)
+			(at 119.38 67.818 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,7 +2925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 119.38 0)
+		(at 271.78 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2671,7 +2936,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d6a5600-5b28-47d7-be4e-d25aefe347b1")
 		(property "Reference" "#PWR03"
-			(at 220.98 125.73 0)
+			(at 271.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +2947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 124.46 0)
+			(at 271.78 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2692,7 +2957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 119.38 0)
+			(at 271.78 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2703,7 +2968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 119.38 0)
+			(at 271.78 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2714,7 +2979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 119.38 0)
+			(at 271.78 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2737,8 +3002,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 62.23 66.04 0)
+		(lib_id "power:GND")
+		(at 194.31 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2747,31 +3012,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "26482f36-6ee6-43a1-9238-fe4ee86858f7")
-		(property "Reference" "C1"
-			(at 66.04 64.7699 0)
+		(uuid "1e3acf58-5bab-46b8-8b03-1b816067a970")
+		(property "Reference" "#PWR011"
+			(at 194.31 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 66.04 67.3099 0)
+		(property "Value" "GND"
+			(at 194.31 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.1952 69.85 0)
+			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,7 +3046,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 66.04 0)
+			(at 194.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45224d85-4fca-429d-94e9-1eac5a13b1e5")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26482f36-6ee6-43a1-9238-fe4ee86858f7")
+		(property "Reference" "C1"
+			(at 72.39 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 72.39 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.5452 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2793,7 +3136,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 66.04 0)
+			(at 68.58 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2899,8 +3242,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36aa1958-e323-4e19-aeb0-5275d1ad959d")
+		(property "Reference" "#PWR06"
+			(at 194.31 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 194.31 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfc0eb37-432f-4a88-8e6a-e13cf0cc73dc")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 224.79 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf64f90-1a41-4297-9aac-fc9a72701382")
+		(property "Reference" "R13"
+			(at 224.79 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 224.79 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.044 43.434 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 224.79 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1d735912-77a7-42cc-8eba-0ddd71951933")
+		)
+		(pin "1"
+			(uuid "919ad7e9-2c31-4a44-8b4b-5708d08f693e")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 90.17 49.53 0)
+		(at 173.99 48.26 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -2911,7 +3412,7 @@
 		(dnp no)
 		(uuid "5035625e-188c-4504-8b04-556df98b9d90")
 		(property "Reference" "U2"
-			(at 90.17 58.42 0)
+			(at 173.99 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2921,7 +3422,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 90.17 55.88 0)
+			(at 173.99 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2931,7 +3432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 52.07 0)
+			(at 172.72 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,7 +3443,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 91.44 54.61 0)
+			(at 175.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,7 +3454,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 90.17 49.53 0)
+			(at 173.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2964,43 +3465,43 @@
 			)
 		)
 		(pin "4"
-			(uuid "7172eb65-a5bf-47ce-921f-56c087ebb051")
+			(uuid "7172eb65-a5bf-47ce-921f-56c087ebb052")
 		)
 		(pin "1"
-			(uuid "48763b6e-8010-4fbf-8d7e-fc586e1b475d")
+			(uuid "48763b6e-8010-4fbf-8d7e-fc586e1b475e")
 		)
 		(pin "2"
-			(uuid "1ea59911-960c-4095-ba84-d345df4c1868")
+			(uuid "1ea59911-960c-4095-ba84-d345df4c1869")
 		)
 		(pin "3"
-			(uuid "86641ff4-a187-4cf5-baae-2bd122e01757")
+			(uuid "86641ff4-a187-4cf5-baae-2bd122e01758")
 		)
 		(pin "10"
-			(uuid "1ed0d7ff-51aa-4763-8740-c56242d1b814")
+			(uuid "1ed0d7ff-51aa-4763-8740-c56242d1b815")
 		)
 		(pin "11"
-			(uuid "6bac2ebb-a676-4cf4-99e6-ef0d8979e292")
+			(uuid "6bac2ebb-a676-4cf4-99e6-ef0d8979e293")
 		)
 		(pin "6"
 			(uuid "43c8b23a-32bb-4207-b5ee-d33b8e074f58")
 		)
 		(pin "13"
-			(uuid "73f2cb11-5c81-459c-99a3-c24464c1a53d")
+			(uuid "73f2cb11-5c81-459c-99a3-c24464c1a53e")
 		)
 		(pin "5"
 			(uuid "a1acb9f1-fd0f-4a8f-a502-cd013018d91f")
 		)
 		(pin "14"
-			(uuid "16f4d085-c725-48f5-844e-73765bfbb97d")
+			(uuid "16f4d085-c725-48f5-844e-73765bfbb97e")
 		)
 		(pin "8"
-			(uuid "91a4d2fe-d125-4b30-9532-691608b18849")
+			(uuid "91a4d2fe-d125-4b30-9532-691608b1884a")
 		)
 		(pin "9"
-			(uuid "01b2adf9-74b9-4140-8340-9c05ca3839f0")
+			(uuid "01b2adf9-74b9-4140-8340-9c05ca3839f1")
 		)
 		(pin "12"
-			(uuid "3001bdef-53f6-4e11-94e5-66b5edc1e889")
+			(uuid "3001bdef-53f6-4e11-94e5-66b5edc1e88a")
 		)
 		(pin "7"
 			(uuid "8ca9b9a7-0232-42e8-97ef-c5c1484cf130")
@@ -3178,7 +3679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 69.85 0)
+		(at 68.58 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3189,7 +3690,7 @@
 		(fields_autoplaced yes)
 		(uuid "660e046d-b698-4c93-9843-dfd45c40a6fd")
 		(property "Reference" "#PWR02"
-			(at 62.23 76.2 0)
+			(at 68.58 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,7 +3701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 74.93 0)
+			(at 68.58 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3210,7 +3711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 69.85 0)
+			(at 68.58 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,7 +3722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 69.85 0)
+			(at 68.58 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +3733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 69.85 0)
+			(at 68.58 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 44.45 0)
+		(at 68.58 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3267,7 +3768,7 @@
 		(fields_autoplaced yes)
 		(uuid "69205f83-5482-4f52-8e4c-b8f860e378cf")
 		(property "Reference" "#PWR08"
-			(at 62.23 50.8 0)
+			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +3779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 49.53 0)
+			(at 68.58 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3288,7 +3789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 44.45 0)
+			(at 68.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 44.45 0)
+			(at 68.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3811,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 44.45 0)
+			(at 68.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,86 +3834,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6db72dfc-bcf8-43e8-9b78-1733b6a3e502")
-		(property "Reference" "#PWR06"
-			(at 200.66 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddaeac63-d8b2-4b28-94ed-5fd200302245")
-		)
-		(instances
-			(project "DIY Oscilloscope"
-				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 62.23 40.64 0)
+		(at 68.58 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3423,7 +3846,7 @@
 		(fields_autoplaced yes)
 		(uuid "7427b0fe-f4e1-4cf9-ac99-c8b04eec8f19")
 		(property "Reference" "C2"
-			(at 66.04 39.3699 0)
+			(at 72.39 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3434,7 +3857,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 66.04 41.9099 0)
+			(at 72.39 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3445,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.1952 44.45 0)
+			(at 69.5452 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 40.64 0)
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3890,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 40.64 0)
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3579,8 +4002,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 64.77 0)
+		(lib_id "Device:R_US")
+		(at 208.28 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3589,10 +4012,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "940177de-a20b-433b-9317-77ddc7bc7e02")
-		(property "Reference" "#PWR09"
-			(at 82.55 71.12 0)
-			(hide yes)
+		(uuid "7a6d5dac-cee3-46b5-a9d6-3a63bfc1babc")
+		(property "Reference" "R11"
+			(at 208.28 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3601,8 +4023,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 82.55 69.85 0)
+		(property "Value" "R_US"
+			(at 208.28 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3612,7 +4034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 64.77 0)
+			(at 208.534 49.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,7 +4045,320 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 64.77 0)
+			(at 208.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 208.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5cf0ac8-d657-48a2-a33c-7ce0d1257256")
+		)
+		(pin "1"
+			(uuid "d0af91f0-2c24-486e-b33f-90ef08897e9e")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 224.79 53.34 0)
+		(mirror x)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f3830bd-f11d-4882-ad1c-9f5c8128d2fd")
+		(property "Reference" "U2"
+			(at 224.79 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 224.79 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 224.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "7172eb65-a5bf-47ce-921f-56c087ebb053")
+		)
+		(pin "1"
+			(uuid "48763b6e-8010-4fbf-8d7e-fc586e1b475f")
+		)
+		(pin "2"
+			(uuid "1ea59911-960c-4095-ba84-d345df4c186a")
+		)
+		(pin "3"
+			(uuid "86641ff4-a187-4cf5-baae-2bd122e01759")
+		)
+		(pin "10"
+			(uuid "1ed0d7ff-51aa-4763-8740-c56242d1b816")
+		)
+		(pin "11"
+			(uuid "6bac2ebb-a676-4cf4-99e6-ef0d8979e294")
+		)
+		(pin "6"
+			(uuid "eef4cd12-af83-448a-ae40-a89de775031b")
+		)
+		(pin "13"
+			(uuid "73f2cb11-5c81-459c-99a3-c24464c1a53f")
+		)
+		(pin "5"
+			(uuid "77406ff5-57ee-498a-a2b4-2d57f626a0e5")
+		)
+		(pin "14"
+			(uuid "16f4d085-c725-48f5-844e-73765bfbb97f")
+		)
+		(pin "8"
+			(uuid "91a4d2fe-d125-4b30-9532-691608b1884b")
+		)
+		(pin "9"
+			(uuid "01b2adf9-74b9-4140-8340-9c05ca3839f2")
+		)
+		(pin "12"
+			(uuid "3001bdef-53f6-4e11-94e5-66b5edc1e88b")
+		)
+		(pin "7"
+			(uuid "68376d52-88d6-4c4e-a4d2-bc4f0cbec632")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 35.56 107.95 90)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d9ba96-9186-41ac-bea2-3a89cfc995f6")
+		(property "Reference" "U2"
+			(at 35.56 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 35.56 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 30.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 35.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "36e5f2bb-3f0d-4752-a25e-b7a179f06b61")
+		)
+		(pin "5"
+			(uuid "602f5a50-c077-4268-b825-a3c001533521")
+		)
+		(pin "10"
+			(uuid "e9c95ad8-079d-41c6-8a71-bd3d835c9a18")
+		)
+		(pin "7"
+			(uuid "d530e412-109f-40ef-a3a4-2c4b99cb2971")
+		)
+		(pin "11"
+			(uuid "38383f67-68e7-4795-94c3-9a313728c5be")
+		)
+		(pin "3"
+			(uuid "3ee69a11-f847-4e52-9621-9dd33c1fa5d0")
+		)
+		(pin "8"
+			(uuid "a3872b84-319c-41da-bd4c-97f746455527")
+		)
+		(pin "14"
+			(uuid "f94985fd-7d06-4478-897f-6229b7f54188")
+		)
+		(pin "13"
+			(uuid "230f9961-24c7-4d42-be43-a3ed6709e8bd")
+		)
+		(pin "12"
+			(uuid "4dacb54d-289a-416b-862a-b3cb026fad6c")
+		)
+		(pin "6"
+			(uuid "9a64fc45-5458-4d48-b70a-318766c93e7c")
+		)
+		(pin "9"
+			(uuid "97861426-fd49-4aed-8a38-23fdc9bd361d")
+		)
+		(pin "1"
+			(uuid "1ae55419-dbbb-491c-a8e3-e5e3c487a865")
+		)
+		(pin "2"
+			(uuid "92b8ac39-2d46-4402-9344-0862c7878510")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "940177de-a20b-433b-9317-77ddc7bc7e02")
+		(property "Reference" "#PWR09"
+			(at 166.37 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3634,7 +4369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 64.77 0)
+			(at 166.37 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3735,7 +4470,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 233.68 119.38 0)
+		(at 284.48 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3746,7 +4481,7 @@
 		(fields_autoplaced yes)
 		(uuid "af0b0405-c7c2-4b42-91ac-69f0a16f9892")
 		(property "Reference" "U2"
-			(at 233.68 109.22 0)
+			(at 284.48 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3756,7 +4491,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 233.68 111.76 0)
+			(at 284.48 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3766,7 +4501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 116.84 0)
+			(at 283.21 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3777,7 +4512,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 234.95 114.3 0)
+			(at 285.75 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3788,7 +4523,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 233.68 119.38 0)
+			(at 284.48 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +4663,7 @@
 	)
 	(symbol
 		(lib_id "Analog_DAC:DAC5311xDCK")
-		(at 128.27 88.9 0)
+		(at 194.31 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3936,10 +4671,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf6cad8f-27da-449c-a94e-185b2eee1b29")
 		(property "Reference" "U5"
-			(at 143.51 82.4798 0)
+			(at 184.912 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3949,7 +4683,7 @@
 			)
 		)
 		(property "Value" "DAC5311xDCK"
-			(at 143.51 85.0198 0)
+			(at 179.578 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3959,7 +4693,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 128.27 88.9 0)
+			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3970,7 +4704,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac5311.pdf"
-			(at 128.27 88.9 0)
+			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +4715,7 @@
 			)
 		)
 		(property "Description" "8-Bit, Single-Channel, Voltage Output, Serial Interface Digital-to-Analog Converters, SC-70"
-			(at 128.27 88.9 0)
+			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +4836,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 90.17 41.91 90)
+		(at 173.99 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4113,7 +4847,7 @@
 		(fields_autoplaced yes)
 		(uuid "cded2388-d5ed-4b8f-88be-2e828e9e156f")
 		(property "Reference" "R10"
-			(at 90.17 35.56 90)
+			(at 173.99 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4123,7 +4857,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 90.17 38.1 90)
+			(at 173.99 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4133,7 +4867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.424 40.894 90)
+			(at 174.244 39.624 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4144,7 +4878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 41.91 0)
+			(at 173.99 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4889,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 90.17 41.91 0)
+			(at 173.99 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4182,7 +4916,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 210.82 106.68 0)
+		(at 261.62 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4193,7 +4927,7 @@
 		(fields_autoplaced yes)
 		(uuid "d88f4bf0-ba35-45e3-82d4-7bf84d5d3918")
 		(property "Reference" "#PWR05"
-			(at 210.82 110.49 0)
+			(at 261.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +4938,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 210.82 101.6 0)
+			(at 261.62 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4214,7 +4948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 106.68 0)
+			(at 261.62 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4225,7 +4959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 106.68 0)
+			(at 261.62 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +4970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 106.68 0)
+			(at 261.62 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4260,7 +4994,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 127 0)
+		(at 261.62 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4271,7 +5005,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2455e96-ae15-4ed9-b749-2ed5a22215dd")
 		(property "Reference" "#PWR04"
-			(at 210.82 133.35 0)
+			(at 261.62 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,7 +5016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 132.08 0)
+			(at 261.62 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4292,7 +5026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 127 0)
+			(at 261.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4303,7 +5037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 127 0)
+			(at 261.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4314,7 +5048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 127 0)
+			(at 261.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4338,7 +5072,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 58.42 36.83 90)
+		(at 64.77 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4349,7 +5083,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebd93d03-46f6-41d8-b72f-a7beb8b89808")
 		(property "Reference" "R6"
-			(at 58.42 30.48 90)
+			(at 64.77 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4359,7 +5093,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 58.42 33.02 90)
+			(at 64.77 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4369,7 +5103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.674 35.814 90)
+			(at 65.024 35.814 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4380,7 +5114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 36.83 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4391,7 +5125,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 58.42 36.83 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +5152,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 58.42 62.23 90)
+		(at 64.77 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4429,7 +5163,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed652d44-b770-4392-8f4d-f5aeb34e3e63")
 		(property "Reference" "R3"
-			(at 58.42 55.88 90)
+			(at 64.77 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4439,7 +5173,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 58.42 58.42 90)
+			(at 64.77 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4449,7 +5183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.674 61.214 90)
+			(at 65.024 61.214 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +5194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 62.23 0)
+			(at 64.77 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4471,7 +5205,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 58.42 62.23 0)
+			(at 64.77 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,6 +5225,86 @@
 			(project "DIY Oscilloscope"
 				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 208.28 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f03825a5-4e1b-4ceb-bd1d-79c5de4ff221")
+		(property "Reference" "R12"
+			(at 208.28 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 208.28 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.534 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 208.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23982a26-ef94-4524-9693-d1d777ff35b6")
+		)
+		(pin "1"
+			(uuid "e04f6b39-e880-4377-a97a-034bfc1b565a")
+		)
+		(instances
+			(project "DIY Oscilloscope"
+				(path "/29ef4a04-a4a1-4a1a-bb34-c6cf4d9e937f/49ac926d-a525-4453-86a6-7143ef693ac4"
+					(reference "R12")
 					(unit 1)
 				)
 			)
